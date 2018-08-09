@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483B9FEF211C3ED80032A2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */; };
+		483B9FF1211C3ED80032A2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B9FF0211C3ED80032A2D7 /* ViewController.swift */; };
+		483B9FF4211C3ED80032A2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483B9FF2211C3ED80032A2D7 /* Main.storyboard */; };
+		483B9FF6211C3EDA0032A2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483B9FF5211C3EDA0032A2D7 /* Assets.xcassets */; };
+		483B9FF9211C3EDA0032A2D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483B9FF7211C3EDA0032A2D7 /* LaunchScreen.storyboard */; };
+		483BA004211C3EDA0032A2D7 /* FlikerImgSearchAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483BA003211C3EDA0032A2D7 /* FlikerImgSearchAPITests.swift */; };
+		483BA00F211C3EDB0032A2D7 /* FlikerImgSearchAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483BA00E211C3EDB0032A2D7 /* FlikerImgSearchAPIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		483BA000211C3EDA0032A2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483B9FE3211C3ED80032A2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483B9FEA211C3ED80032A2D7;
+			remoteInfo = FlikerImgSearchAPI;
+		};
+		483BA00B211C3EDA0032A2D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 483B9FE3211C3ED80032A2D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 483B9FEA211C3ED80032A2D7;
+			remoteInfo = FlikerImgSearchAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483B9FEB211C3ED80032A2D7 /* FlikerImgSearchAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlikerImgSearchAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		483B9FF0211C3ED80032A2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		483B9FF3211C3ED80032A2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		483B9FF5211C3EDA0032A2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		483B9FF8211C3EDA0032A2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		483B9FFA211C3EDA0032A2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483B9FFF211C3EDA0032A2D7 /* FlikerImgSearchAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerImgSearchAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		483BA003211C3EDA0032A2D7 /* FlikerImgSearchAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikerImgSearchAPITests.swift; sourceTree = "<group>"; };
+		483BA005211C3EDA0032A2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483BA00A211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlikerImgSearchAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		483BA00E211C3EDB0032A2D7 /* FlikerImgSearchAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikerImgSearchAPIUITests.swift; sourceTree = "<group>"; };
+		483BA010211C3EDB0032A2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		483B9FE8211C3ED80032A2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483B9FFC211C3EDA0032A2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483BA007211C3EDA0032A2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483B9FE2211C3ED80032A2D7 = {
+			isa = PBXGroup;
+			children = (
+				483B9FED211C3ED80032A2D7 /* FlikerImgSearchAPI */,
+				483BA002211C3EDA0032A2D7 /* FlikerImgSearchAPITests */,
+				483BA00D211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests */,
+				483B9FEC211C3ED80032A2D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		483B9FEC211C3ED80032A2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483B9FEB211C3ED80032A2D7 /* FlikerImgSearchAPI.app */,
+				483B9FFF211C3EDA0032A2D7 /* FlikerImgSearchAPITests.xctest */,
+				483BA00A211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		483B9FED211C3ED80032A2D7 /* FlikerImgSearchAPI */ = {
+			isa = PBXGroup;
+			children = (
+				483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */,
+				483B9FF0211C3ED80032A2D7 /* ViewController.swift */,
+				483B9FF2211C3ED80032A2D7 /* Main.storyboard */,
+				483B9FF5211C3EDA0032A2D7 /* Assets.xcassets */,
+				483B9FF7211C3EDA0032A2D7 /* LaunchScreen.storyboard */,
+				483B9FFA211C3EDA0032A2D7 /* Info.plist */,
+			);
+			path = FlikerImgSearchAPI;
+			sourceTree = "<group>";
+		};
+		483BA002211C3EDA0032A2D7 /* FlikerImgSearchAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				483BA003211C3EDA0032A2D7 /* FlikerImgSearchAPITests.swift */,
+				483BA005211C3EDA0032A2D7 /* Info.plist */,
+			);
+			path = FlikerImgSearchAPITests;
+			sourceTree = "<group>";
+		};
+		483BA00D211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				483BA00E211C3EDB0032A2D7 /* FlikerImgSearchAPIUITests.swift */,
+				483BA010211C3EDB0032A2D7 /* Info.plist */,
+			);
+			path = FlikerImgSearchAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483B9FEA211C3ED80032A2D7 /* FlikerImgSearchAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483BA013211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPI" */;
+			buildPhases = (
+				483B9FE7211C3ED80032A2D7 /* Sources */,
+				483B9FE8211C3ED80032A2D7 /* Frameworks */,
+				483B9FE9211C3ED80032A2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlikerImgSearchAPI;
+			productName = FlikerImgSearchAPI;
+			productReference = 483B9FEB211C3ED80032A2D7 /* FlikerImgSearchAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		483B9FFE211C3EDA0032A2D7 /* FlikerImgSearchAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483BA016211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPITests" */;
+			buildPhases = (
+				483B9FFB211C3EDA0032A2D7 /* Sources */,
+				483B9FFC211C3EDA0032A2D7 /* Frameworks */,
+				483B9FFD211C3EDA0032A2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483BA001211C3EDA0032A2D7 /* PBXTargetDependency */,
+			);
+			name = FlikerImgSearchAPITests;
+			productName = FlikerImgSearchAPITests;
+			productReference = 483B9FFF211C3EDA0032A2D7 /* FlikerImgSearchAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		483BA009211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483BA019211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPIUITests" */;
+			buildPhases = (
+				483BA006211C3EDA0032A2D7 /* Sources */,
+				483BA007211C3EDA0032A2D7 /* Frameworks */,
+				483BA008211C3EDA0032A2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483BA00C211C3EDA0032A2D7 /* PBXTargetDependency */,
+			);
+			name = FlikerImgSearchAPIUITests;
+			productName = FlikerImgSearchAPIUITests;
+			productReference = 483BA00A211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		483B9FE3211C3ED80032A2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					483B9FEA211C3ED80032A2D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					483B9FFE211C3EDA0032A2D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 483B9FEA211C3ED80032A2D7;
+					};
+					483BA009211C3EDA0032A2D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 483B9FEA211C3ED80032A2D7;
+					};
+				};
+			};
+			buildConfigurationList = 483B9FE6211C3ED80032A2D7 /* Build configuration list for PBXProject "FlikerImgSearchAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 483B9FE2211C3ED80032A2D7;
+			productRefGroup = 483B9FEC211C3ED80032A2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				483B9FEA211C3ED80032A2D7 /* FlikerImgSearchAPI */,
+				483B9FFE211C3EDA0032A2D7 /* FlikerImgSearchAPITests */,
+				483BA009211C3EDA0032A2D7 /* FlikerImgSearchAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		483B9FE9211C3ED80032A2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483B9FF9211C3EDA0032A2D7 /* LaunchScreen.storyboard in Resources */,
+				483B9FF6211C3EDA0032A2D7 /* Assets.xcassets in Resources */,
+				483B9FF4211C3ED80032A2D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483B9FFD211C3EDA0032A2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483BA008211C3EDA0032A2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		483B9FE7211C3ED80032A2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483B9FF1211C3ED80032A2D7 /* ViewController.swift in Sources */,
+				483B9FEF211C3ED80032A2D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483B9FFB211C3EDA0032A2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483BA004211C3EDA0032A2D7 /* FlikerImgSearchAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483BA006211C3EDA0032A2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483BA00F211C3EDB0032A2D7 /* FlikerImgSearchAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483BA001211C3EDA0032A2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483B9FEA211C3ED80032A2D7 /* FlikerImgSearchAPI */;
+			targetProxy = 483BA000211C3EDA0032A2D7 /* PBXContainerItemProxy */;
+		};
+		483BA00C211C3EDA0032A2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 483B9FEA211C3ED80032A2D7 /* FlikerImgSearchAPI */;
+			targetProxy = 483BA00B211C3EDA0032A2D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		483B9FF2211C3ED80032A2D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483B9FF3211C3ED80032A2D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		483B9FF7211C3EDA0032A2D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483B9FF8211C3EDA0032A2D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		483BA011211C3EDB0032A2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		483BA012211C3EDB0032A2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		483BA014211C3EDB0032A2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		483BA015211C3EDB0032A2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		483BA017211C3EDB0032A2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerImgSearchAPI.app/FlikerImgSearchAPI";
+			};
+			name = Debug;
+		};
+		483BA018211C3EDB0032A2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlikerImgSearchAPI.app/FlikerImgSearchAPI";
+			};
+			name = Release;
+		};
+		483BA01A211C3EDB0032A2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlikerImgSearchAPI;
+			};
+			name = Debug;
+		};
+		483BA01B211C3EDB0032A2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FH9Z6Z966H;
+				INFOPLIST_FILE = FlikerImgSearchAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.aalok.FlikerImgSearchAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlikerImgSearchAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483B9FE6211C3ED80032A2D7 /* Build configuration list for PBXProject "FlikerImgSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BA011211C3EDB0032A2D7 /* Debug */,
+				483BA012211C3EDB0032A2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483BA013211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BA014211C3EDB0032A2D7 /* Debug */,
+				483BA015211C3EDB0032A2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483BA016211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BA017211C3EDB0032A2D7 /* Debug */,
+				483BA018211C3EDB0032A2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483BA019211C3EDB0032A2D7 /* Build configuration list for PBXNativeTarget "FlikerImgSearchAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483BA01A211C3EDB0032A2D7 /* Debug */,
+				483BA01B211C3EDB0032A2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 483B9FE3211C3ED80032A2D7 /* Project object */;
+}
