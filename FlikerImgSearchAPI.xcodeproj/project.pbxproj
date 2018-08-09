@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48199C19211C6117004A345E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48199C18211C6117004A345E /* Photo.swift */; };
+		48199C1B211C627D004A345E /* SearchPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48199C1A211C627D004A345E /* SearchPhoto.swift */; };
+		48199C1D211C62CE004A345E /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48199C1C211C62CE004A345E /* SearchResults.swift */; };
+		48199C1F211C6BCE004A345E /* PhotoCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48199C1E211C6BCE004A345E /* PhotoCVCell.swift */; };
 		483B9FEF211C3ED80032A2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */; };
 		483B9FF1211C3ED80032A2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483B9FF0211C3ED80032A2D7 /* ViewController.swift */; };
 		483B9FF4211C3ED80032A2D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483B9FF2211C3ED80032A2D7 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48199C18211C6117004A345E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		48199C1A211C627D004A345E /* SearchPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhoto.swift; sourceTree = "<group>"; };
+		48199C1C211C62CE004A345E /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		48199C1E211C6BCE004A345E /* PhotoCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCVCell.swift; sourceTree = "<group>"; };
 		483B9FEB211C3ED80032A2D7 /* FlikerImgSearchAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlikerImgSearchAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		483B9FF0211C3ED80032A2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +107,10 @@
 			children = (
 				483B9FEE211C3ED80032A2D7 /* AppDelegate.swift */,
 				483B9FF0211C3ED80032A2D7 /* ViewController.swift */,
+				48199C1C211C62CE004A345E /* SearchResults.swift */,
+				48199C18211C6117004A345E /* Photo.swift */,
+				48199C1A211C627D004A345E /* SearchPhoto.swift */,
+				48199C1E211C6BCE004A345E /* PhotoCVCell.swift */,
 				483B9FF2211C3ED80032A2D7 /* Main.storyboard */,
 				483B9FF5211C3EDA0032A2D7 /* Assets.xcassets */,
 				483B9FF7211C3EDA0032A2D7 /* LaunchScreen.storyboard */,
@@ -256,6 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48199C1B211C627D004A345E /* SearchPhoto.swift in Sources */,
+				48199C19211C6117004A345E /* Photo.swift in Sources */,
+				48199C1D211C62CE004A345E /* SearchResults.swift in Sources */,
+				48199C1F211C6BCE004A345E /* PhotoCVCell.swift in Sources */,
 				483B9FF1211C3ED80032A2D7 /* ViewController.swift in Sources */,
 				483B9FEF211C3ED80032A2D7 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH9Z6Z966H;
 				INFOPLIST_FILE = FlikerImgSearchAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FH9Z6Z966H;
 				INFOPLIST_FILE = FlikerImgSearchAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
